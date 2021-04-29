@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "176995787914",
+    "firebase_url": "https://pepperintv1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pepperintv1",
+    "storage_bucket": "pepperintv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176995787914:android:987b8f3d3398b96822f973",
+        "android_client_info": {
+          "package_name": "ge.android.gis.tv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176995787914-livt8s90lth1d5gstorokh5ghsehb1kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcIGJxOte6OB0Zcmrx4kk25cCY6z460hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176995787914-livt8s90lth1d5gstorokh5ghsehb1kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

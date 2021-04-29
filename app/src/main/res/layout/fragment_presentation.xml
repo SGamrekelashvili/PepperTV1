@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#000000"
+    tools:context=".fragments.PresentationFragment">
+
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/homeViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/homeDotsIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        app:dotsColor="#0090FF"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="20dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeColor="#0090FF"
+        app:dotsStrokeWidth="2dp" />
+
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_margin="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+
+</FrameLayout>

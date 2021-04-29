@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <include
+        android:id="@+id/recognitionToolbar"
+        layout="@layout/recognition_toolbar" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+
+<!--    <include-->
+<!--        android:id="@+id/recognitionToolbar"-->
+<!--        layout="@layout/recognition_toolbar" />-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/background"-->
+<!--        android:orientation="vertical">-->
+
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/firstQuestionBtn"-->
+<!--            android:layout_width="160dp"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:background="@drawable/triangle"-->
+<!--            android:backgroundTint="#DCD938"-->
+<!--            android:elevation="10dp"-->
+<!--            android:fontFamily="@font/main_font"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingTop="30dp"-->
+<!--            android:text="Why\nAttend?"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="55dp"-->
+<!--            app:elevation="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.621"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.04" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/secondQuestionBtn"-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="180dp"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:background="@drawable/romb"-->
+<!--            android:elevation="10dp"-->
+<!--            android:fontFamily="@font/main_font"-->
+<!--            android:paddingBottom="5dp"-->
+<!--            android:text="Why\n Partner?"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="25dp"-->
+<!--            app:elevation="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.625"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.473" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/buttonPresentation"-->
+<!--            android:layout_width="160dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:background="@drawable/square"-->
+<!--            android:elevation="10dp"-->
+<!--            android:fontFamily="@font/main_font"-->
+<!--            android:text="Presentation"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15sp"-->
+<!--            app:cornerRadius="55dp"-->
+<!--            app:elevation="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.913"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.472" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/thirdQuestionBtn"-->
+<!--            android:layout_width="160dp"-->
+<!--            android:layout_height="160dp"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:background="@drawable/hex"-->
+<!--            android:elevation="10dp"-->
+<!--            android:fontFamily="@font/main_font"-->
+<!--            android:text="Why\n Sponsor?"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="55dp"-->
+<!--            app:elevation="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.621"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.957" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/contactBtn"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:background="@drawable/circle"-->
+<!--            android:elevation="10dp"-->
+<!--            android:fontFamily="@font/main_font"-->
+<!--            android:text="Contact Us"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="15dp"-->
+<!--            app:elevation="10dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.9"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.932" />-->
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</LinearLayout>
